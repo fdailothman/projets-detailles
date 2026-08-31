@@ -10,3 +10,8 @@
 
 ## Résultat
 (Décris le résultat obtenu, avec un chiffre si possible)
+![Aperçu du projet](test.jpg)
+
+[Télécharger le fichier Excel](portfolio.xlsx)
+
+[Télécharger le fichier KNIME](portfolio.knwf)
