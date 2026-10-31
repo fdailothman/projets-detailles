@@ -1,4 +1,4 @@
-# Amélioration de la précision de la longueur des câbles électriques coupés
+# Amélioration du processus de coupe des câbles électriques
 
 > **Note :** par souci de confidentialité, les noms de l’entreprise, des clients, du fournisseur et du prestataire de maintenance ont été anonymisés.
 
