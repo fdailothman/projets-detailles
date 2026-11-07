@@ -2,6 +2,20 @@
 
 > **Note :** par souci de confidentialité, les noms d’articles et les codes ont été anonymisés (les références sont désignées par « Article NN »). Les autres résultats sont exprimés en pourcentages ; seul le Tableau 1 présente des montants de ventes, arrondis en millions d’euros (M€).
 
+## Sommaire
+
+1. [Présentation du projet](#présentation-du-projet)
+    - [Le contexte du projet](#le-contexte-du-projet)
+    - [Périmètre de la problématique](#périmètre-de-la-problématique)
+    - [Objectifs du projet](#objectifs-du-projet)
+2. [Traitement de la problématique](#traitement-de-la-problématique)
+    - [Analyse ABC](#analyse-abc)
+    - [Analyse ABC-XYZ](#analyse-abc-xyz)
+3. [Conclusion générale](#conclusion-générale)
+
+---
+
+
 ## Présentation du projet
 
 ### Le contexte du projet

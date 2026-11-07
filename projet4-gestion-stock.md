@@ -1,6 +1,41 @@
-**Présentation du projet**
+# Mise en place d’un système de gestion de stock et optimisation des coûts logistiques associés
 
-**Le contexte du projet :**
+## Sommaire
+
+1. [Présentation du projet](#présentation-du-projet)
+    - [Le contexte du projet](#le-contexte-du-projet)
+    - [La mission du projet](#la-mission-du-projet)
+    - [La démarche de résolution : DMAIC](#la-démarche-de-résolution--dmaic)
+2. [Définir](#définir)
+    - [Présentation de la problématique](#présentation-de-la-problématique)
+    - [Diagramme de SIPOC](#diagramme-de-sipoc)
+    - [Processus de logistique aval au site](#processus-de-logistique-aval-au-site)
+    - [Logigramme du processus de la logistique aval](#logigramme-du-processus-de-la-logistique-aval)
+    - [Périmètre du projet](#périmètre-du-projet)
+    - [États des lieux et objectifs](#états-des-lieux-et-objectifs)
+    - [Objectifs à atteindre](#objectifs-à-atteindre)
+3. [Mesurer](#mesurer)
+    - [Brainstorming et benchmarking](#brainstorming-et-benchmarking)
+    - [Mesure des temps cycle](#mesure-des-temps-cycle)
+    - [La classification ABC](#la-classification-abc)
+4. [Analyser](#analyser)
+    - [Analyse par principe de Pareto](#analyse-par-principe-de-pareto)
+    - [Exploitation et interprétation des données de la classification](#exploitation-et-interprétation-des-données-de-la-classification)
+5. [Innover](#innover)
+    - [Cahier de charge des améliorations](#cahier-de-charge-des-améliorations)
+    - [Plan de zonage](#plan-de-zonage)
+6. [Contrôler](#contrôler)
+    - [Livret des procédures](#livret-des-procédures)
+    - [Tableau de bord](#tableau-de-bord)
+    - [Gains chiffrés](#gains-chiffrés)
+    - [Confirmation du plan d’action](#confirmation-du-plan-daction)
+7. [Conclusion](#conclusion)
+
+---
+
+## Présentation du projet
+
+### Le contexte du projet
 
 La logistique aval définit de façon global l’ensemble des activités logistiques ayant pour objectif de mettre à la disposition des clients ou consommateurs finaux des produits finis. Il s’agit de la partie logistique qui consiste à acheminer les produits issus d’un processus de production vers le client.
 
@@ -26,7 +61,7 @@ Les activités de la logistique aval sur le site comprennent :
 
 - Transport aval.
 
-**La mission du projet :**
+### La mission du projet
 
 La mission principale de ce projet est la mise en place d’un système de gestion de stock, en établissant toutes les procédures, consignes et modes opératoires concernant les activités de stockage au niveau du site de production.
 
@@ -40,13 +75,13 @@ Dans le but d’améliorer le taux de service et de minimiser les pertes, plusie
 
 Afin de mettre en place ces actions amélioratives, le projet a été réalisé à l’aide de la démarche DMAIC. Ce qui va permettre d’identifier les causes de dysfonctionnement, de les évaluer afin de mettre en place les actions les plus convenables pour en faire face.
 
-**La démarche de résolution : DMAIC**
+### La démarche de résolution : DMAIC
 
 La démarche DMAIC dispose de plusieurs outils, qui permettent de passer d’une problématique complexe à une amélioration et une maitrise du processus. Cette démarche est adaptée à ce projet qui vise à diminuer le taux d’occupation des engins de manutention, car le temps est un paramètre de suivi que l’on peut mesurer facilement. Ceci permettra d’identifier les causes des pertes de temps afin de mettre en place les actions amélioratives pour en faire face. Le but principal du projet est de réduire le temps cycle global de stockage des Bobines Lac, de réaliser une nouvelle cartographie du stock, et de mettre en place un système de gestion de stock composé des procédures et consignes, afin de standardiser et améliorer la gestion du stock.
 
-**Définir**
+## Définir
 
-**Présentation de la problématique**
+### Présentation de la problématique
 
 Depuis l’inauguration du site de production, la gestion de stock a été fonction support du service production, alors elle n’était pas sujette de grandes améliorations au niveau du site.
 
@@ -70,23 +105,23 @@ Des projets d’optimisation sont devenus nécessaires, dès lors mon projet tou
 >
 > ![QQOQCP du projet](projet4-fig26.png)
 >
-> Figure  : QQOQCP du projet
+> Figure 21 : QQOQCP du projet
 
-**Diagramme de SIPOC**
+### Diagramme de SIPOC
 
 ![Diagramme SIPOC](projet4-fig27.png)
 
-Figure  : Diagramme SIPOC de l’usine
+Figure 20 : Diagramme SIPOC de l’usine
 
 **Diagramme de Gantt**![Figure](projet4-fig01.png)
 
-**Processus de logistique aval au site**
+### Processus de logistique aval au site
 
-**Réception des bobines :**
+#### Réception des bobines
 
 Après la sortie de la bobine du laminoir, la bobine est déplacée par un pont roulant vers une zone de refroidissement pour une durée de 48h. La bobine refroidie subit un contrôle d’aspect et une identification dans la zone d’identification à la sortie du hangar, l’agent de stock marque les bobines suivant leurs destinations et colle les étiquettes d’identification sur les bobines.
 
-**Mise en stock des bobines**
+#### Mise en stock des bobines
 
 Le chariot élévateur déplace les bobines marquées vers les zones mentionnées sur la surface de la bobine, le zonage et l’adressage des lots se font suivant les destinations :
 
@@ -100,13 +135,13 @@ Le chariot élévateur déplace les bobines marquées vers les zones mentionnée
 
 - Stockage
 
-**Inventaire et contrôle qualité**
+#### Inventaire et contrôle qualité
 
 Les bobines mises en stock subissent un inventaire mensuel ainsi que des inventaires par douchette au cas où une anomalie est détectée.
 
 Le service contrôle qualité contrôle l’aspect des bobines mises en stock au fur et à mesure qu’un déplacement ou une transformation est effectué sur la bobine, et ceci avant que la bobine soit affectée à une livraison par l’ADV.
 
-**Préparation des commandes et livraison**
+#### Préparation des commandes et livraison
 
 Les bobines de conformité validée sont mises sur le planning de livraison par le responsable planification
 
@@ -114,13 +149,13 @@ Les bobines à destination de l’export conteneur sont préparées sur la zone 
 
 Les bobines chargées sur les camions subissent un dernier contrôle avant le pesage final et l’expédition.
 
-**Logigramme du processus de la logistique aval**
+### Logigramme du processus de la logistique aval
 
 **Pour mieux comprendre et avoir une vue globale sur le processus de la logistique aval du site,j’ai réalisé un logigramme grace à l’outil MS VISIO**
 
 ![Figure](projet4-fig02.jpeg)
 
-**Périmètre du projet**
+### Périmètre du projet
 
 Le projet s’encadre entre a zone de production des bobines et le pont-bascule de sortie de livraison et passe par :
 
@@ -132,11 +167,11 @@ Le projet s’encadre entre a zone de production des bobines et le pont-bascule 
 
 - Pont-bascule de sortie des camions
 
-**États des lieux et objectifs**
+### États des lieux et objectifs
 
 L’état des lieux que j’ai effectué a montré des pistes d’améliorations sur plusieurs points au niveau du périmètre du projet :
 
-**Le zoning et l’adressage des lots**
+#### Le zoning et l’adressage des lots
 
 Cette phase s’effectue entre le moment de l’étiquetage des bobines et leurs mises en stock.
 
@@ -160,7 +195,7 @@ Cette procédure s’effectue par le biais d’une « douchette » connectée 
 
 A ce propos, j’ai constaté la présence des écarts de stock signifiante au niveau du stock S3.
 
-**Le marquage des zones et l’état de l’infrastructure**
+#### Le marquage des zones et l’état de l’infrastructure
 
 Le marquage des zones et des couloirs du stock sont considérés comme l’un des éléments importants pour l’identification des bobines ainsi que dans le zoning et l’inventaire.
 
@@ -170,13 +205,13 @@ L’état du sol est détérioré à cause des conditions climatiques ainsi que 
 
 ![Figure](projet4-fig04.jpeg)
 
-Figure  : Photo illustrative du marquage du sol 1
+Figure 25 : Photo illustrative du marquage du sol 1
 
 ![Figure](projet4-fig05.jpeg)
 
-Figure  : Photo illustrative du marquage du sol 2
+Figure 26 : Photo illustrative du marquage du sol 2
 
-**Le désordre dans la mise en place des bobines**
+#### Le désordre dans la mise en place des bobines
 
 L’absence des SKID de maintien des bobines au niveau du stock (support des bobines) cause un désordre des bobines au niveau du stock :
 
@@ -186,7 +221,7 @@ L’absence des SKID de maintien des bobines au niveau du stock (support des bob
 
 Ce qui implique la non-exploitation de la totalité de la capacité du stock ![Figure](projet4-fig06.jpeg)
 
-**Plan de zonage**
+#### Plan de zonage
 
 L’agent du zoning suit le plan suivant pour la mise en stock des bobines :
 
@@ -222,21 +257,21 @@ L’agent du zoning suit le plan suivant pour la mise en stock des bobines :
 | Bobines Réparées RF1 & RF7 poids\>12T                         | \_                    | \_    | 1100                | 1290  | P        |
 | Bobines Réparées RF1 & RF7 poids\>12T                         | \_                    | \_    | 980                 | 1090  | Q        |
 
-Tableau  : ancien plan de zonage
+Tableau 5 : ancien plan de zonage
 
-**Cartographie du stock**
+#### Cartographie du stock
 
 Suivant ce plan de zonage, la cartographie du stock est comme suit :
 
 ![Figure](projet4-fig07.png)
 
-**Objectifs à atteindre :**
+### Objectifs à atteindre
 
 Ce projet a pour but d’effectuer une réorganisation optimale du plan de zonage ainsi que la cartographie du stock en fonction de la rotation des différentes références de bobines LAC. Ceci permettra d’améliorer le temps de cycle global pour la mise en stock des bobines LAC afin de gagner en termes de couts logistiques et de disponibilité.
 
-**Mesurer**
+## Mesurer
 
-**Brainstorming et benchmarking**
+### Brainstorming et benchmarking
 
 Après une série de visites au sein des différents départements que ce soit sur le site logistique ou celui de production, une réunion de brainstorming a été programmée pour proposer les idées de résolution des problématiques des stocks du site de production.Toute l’équipe de stock a été présente pour assurer un maximum de partage.
 
@@ -244,7 +279,7 @@ Les stocks du site se divisent en trois selon la catégorie du produit : (Bobin
 
 En fin de la réunion, on s’est mis d’accord que le projet se focalisera sur l’optimisation et l’amélioration des stocks de produits finis **Bobine Lac** suivant la priorisation mise en place.
 
-**Mesure des temps cycle :**
+### Mesure des temps cycle
 
 Tout d’abord, je me suis intéressé à la collecte de données concernant l’opération d’évacuation des bobines LAC vers le stock extérieur S3. Cette opération est effectuée chaque jour à l’aide du chariot élévateur de bobine.
 
@@ -286,7 +321,7 @@ A ce propos, j’ai mesuré toutes les distances parcourues par l’engin vers l
 | 32  | U    | 202                                     | 250                    | 55                          |
 | 33  | L    | Cobble                                  |                        | 144                         |
 
-**La classification ABC **
+### La classification ABC
 
 Il existe plusieurs références qui sont réparties selon les cinq destinations suivantes :
 
@@ -327,7 +362,7 @@ Dans le but de savoir la classification des destinations ainsi que les référen
 | LOT-021 | Locale      | 1.60 | 1000.0  | 13730    | M2    | 2021-11-08 00:00:00.000 | 1     |
 | LOT-022 | Locale      | 1.60 | 1000.0  | 12620    | M2    | 2021-11-09 00:00:00.000 | 1     |
 
-Tableau  : Extrait de la base de données de rotation des 12 derniers mois
+Tableau 8 : Extrait de la base de données de rotation des 12 derniers mois
 
 À travers cette base de données, j’ai réalisé un tableau croisé dynamique contenant les destinations et les épaisseurs en ligne et en valeur la somme des poids nets.
 
@@ -367,7 +402,7 @@ Donc j’ai réalisé une classification ABC pour toutes les destinations. Dans 
 | 25  | 4.50                     | 21600                  | 0%                  | 100%                        | C   |                                 |
 | 26  | 1.90                     | 20390                  | 0%                  | 100%                        | C   |                                 |
 
-Tableau  : Classification ABC de la destination transfert
+Tableau 9 : Classification ABC de la destination transfert
 
 |     | Étiquettes de lignes | Somme de Poids net(Kg) | % des poids net | % des poids net cumulés | ABC | % des poids par destination |
 |-----|----------------------|------------------------|-----------------|-------------------------|-----|-----------------------------|
@@ -432,7 +467,7 @@ Tableau  : Classification ABC de la destination transfert
 | 84  | 3.31                 | 23630                  | 0%              | 100%                    | C   |                             |
 | 85  | 2.45                 | 20470                  | 0%              | 100%                    | C   |                             |
 
-Tableau  : Classification ABC de la destination Consommation
+Tableau 10 : Classification ABC de la destination Consommation
 
 |     | Étiquettes de lignes | Somme de Poids net (Kg) | % des poids net | % des poids net cumulés | ABC | % des poids par destination |
 |-----|----------------------|-------------------------|-----------------|-------------------------|-----|-----------------------------|
@@ -535,7 +570,7 @@ Tableau  : Classification ABC de la destination Consommation
 | 181 | 3.23                 | 6180                    | 0%              | 100%                    | C   |                             |
 | 182 | 4.26                 | 4630                    | 0%              | 100%                    | C   |                             |
 
-Tableau  : Classification ABC destination Livraison locale
+Tableau 11 : Classification ABC destination Livraison locale
 
 |     | Étiquettes de lignes | Somme de Poids net(Kg) | % des poids net | % des poids net cumulés | ABC | % des poids par destination |
 |-----|----------------------|------------------------|-----------------|-------------------------|-----|-----------------------------|
@@ -609,7 +644,7 @@ Tableau  : Classification ABC destination Livraison locale
 | 249 | 18.09                | 6950                   | 0%              | 100%                    | C   |                             |
 | 250 | 7.30                 | 6270                   | 0%              | 100%                    | C   |                             |
 
-Tableau  : Classification ABC de la destination Export
+Tableau 12 : Classification ABC de la destination Export
 
 |     | Étiquettes de lignes | Somme de Poids net (Kg) | % des poids net | % des poids net cumulés | ABC | % des poids par destination |
 |-----|----------------------|-------------------------|-----------------|-------------------------|-----|-----------------------------|
@@ -654,13 +689,13 @@ Tableau  : Classification ABC de la destination Export
 | 288 | 2.90                 | 6090                    | 1%              | 99%                     | C   |                             |
 | 289 | 3.05                 | 5830                    | 1%              | 100%                    | C   |                             |
 
-Tableau  : Classification ABC de la destination stock
+Tableau 13 : Classification ABC de la destination stock
 
-**Analyser :**
+## Analyser
 
-**Analyse par principe de Pareto :**
+### Analyse par principe de Pareto
 
-**Exploitation et interprétation des données de la classification :**
+### Exploitation et interprétation des données de la classification
 
 Après l’établissement de la classification ABC de chaque destination, il s’avère important d’interpréter les données fournies par cette étude et les exploiter au profit de l’objectif fixé au début du projet.
 
@@ -686,7 +721,7 @@ La capacité totale du stock S3 est de 3875 bobines.
 | **B**    | 95%             | 2                      | 5%               | 179                        |
 | **C**    | \>95%           | 19                     | 2%               | 81                         |
 
-Tableau  : Interprétation classification Transfert
+Tableau 14 : Interprétation classification Transfert
 
 La classification ABC de la destination transfert a donné :
 
@@ -696,7 +731,7 @@ Classe B : 2 références pour 13% de pourcentage de poids net, et 5% de pource
 
 Classe C : 19 références pour 5% de pourcentage de poids net, et 2% de pourcentage du poids net total. Le nombre de bobines nécessaire pour le stockage de cette classe est 81.
 
-Figure  : Diagramme de Pareto Transfert
+Figure 29 : Diagramme de Pareto Transfert
 
 ##### Bobines de consommation
 
@@ -706,7 +741,7 @@ Figure  : Diagramme de Pareto Transfert
 | **B**    | 95%             | 16                     | 5%               | 184                        |
 | **C**    | \>95%           | 24                     | 2%               | 71                         |
 
-Tableau  : Interprétation classification bobines de consommation
+Tableau 15 : Interprétation classification bobines de consommation
 
 La classification ABC de la destination Bobine de consommation a donné :
 
@@ -716,7 +751,7 @@ Classe B : 16 références pour 13% de pourcentage de poids net, et 5% de pourc
 
 Classe C : 24 références pour 5% de pourcentage de poids net, et 2% de pourcentage du poids net total. Le nombre de bobines nécessaire pour le stockage de cette classe est 71.
 
-Figure  : Diagramme de Pareto bobines de consommation
+Figure 30 : Diagramme de Pareto bobines de consommation
 
 ##### Livraison locale 
 
@@ -726,7 +761,7 @@ Figure  : Diagramme de Pareto bobines de consommation
 | **B**    | 95%            | 13              | 2%             | 94                          |
 | **C**    | \>95%          | 66              | 1%             | 35                          |
 
-Tableau  : Interprétation classification livraison locale
+Tableau 16 : Interprétation classification livraison locale
 
 La classification ABC de la destination Bobine de consommation a donné :
 
@@ -736,7 +771,7 @@ Classe B : 13 références pour 13% de pourcentage de poids net, et 2% de pourc
 
 Classe C : 66 références pour 5% de pourcentage de poids net, et 1% de pourcentage du poids net total. Le nombre de bobines nécessaire pour le stockage de cette classe est 35.
 
-Figure  : Diagramme de Pareto Livraison locale
+Figure 31 : Diagramme de Pareto Livraison locale
 
 ##### Export
 
@@ -746,7 +781,7 @@ Figure  : Diagramme de Pareto Livraison locale
 | **B**    | 95%             | 14              | 1%             | 54                          |
 | **C**    | \>95%           | 32              | 1%             | 20                          |
 
-Tableau  : Interprétation classification export
+Tableau 17 : Interprétation classification export
 
 La classification ABC de la destination Bobine de consommation a donné :
 
@@ -756,7 +791,7 @@ Classe B : 14 références pour 13% de pourcentage de poids net, et 1% de pourc
 
 Classe C : 32 références pour 5% de pourcentage de poids net, et 1% de pourcentage du poids net total. Le nombre de bobines nécessaire pour le stockage de cette classe est 20.
 
-Figure : Diagramme de Pareto Export
+Figure 32 : Diagramme de Pareto Export
 
 ##### Stockage
 
@@ -766,7 +801,7 @@ Figure : Diagramme de Pareto Export
 | **B**    | 95%             | 10              | 0%                   | 2                           |
 | **C**    | \>95%           | 8               | 0%                   | 1                           |
 
-Tableau  : Interprétation classification Stock
+Tableau 18 : Interprétation classification Stock
 
 La classification ABC de la destination Bobine de consommation a donné :
 
@@ -776,7 +811,7 @@ Classe B : 10 références pour 13% de pourcentage de poids net, et 0% de pourc
 
 Classe C : 8 références pour 5% de pourcentage de poids net, et 0% de pourcentage du poids net total. Le nombre de bobines nécessaire pour le stockage de cette classe est 1.
 
-Figure  : Diagramme de Pareto Stock
+Figure 33 : Diagramme de Pareto Stock
 
 #### Résumé de l’analyse de Pareto
 
@@ -812,7 +847,7 @@ Les résultats de la classification sont comme suit :
 |                                       | Stock B                              | 0%                         | 2                          |                           |
 |                                       | Stock C                              | 0%                         | 1                          |                           |
 
-Tableau  : Résumé de l'analyse de Pareto
+Tableau 19 : Résumé de l'analyse de Pareto
 
 Cependant, l’existence de plusieurs épaisseurs dans chaque Classe m’a mis sous l’obligation de détailler plus le classement des Références, d’où l’utilisation de la classification ABC FMR.
 
@@ -901,7 +936,7 @@ Les références -composées de la destination et la classe- qui ont le taux de 
 | **14** | Stock B                              |                | 0%                         | 2                           |
 | **15** | Stock C                              |                | 0%                         | 1                           |
 
-Tableau  : Résumé de l'analyse de Pareto détaillé
+Tableau 20 : Résumé de l'analyse de Pareto détaillé
 
 #### Affectation des références sur les zones par arbitrage de capacité
 
@@ -945,7 +980,7 @@ Les capacités de chaque zone au sein du stock S3 sont illustrées sur le tablea
 | T        | 1     | 2     | 1 ------\> 70  | 70                         | 10              | 700     |
 | U        | 1     | 2     | 1 ------\> 55  | 55                         |                 |         |
 
-Tableau  : Capacité du stock S3
+Tableau 21 : Capacité du stock S3
 
 NB : L’étude sera soumise à un pourcentage de tolérance qui concerne l’affectation des zones aux références qui est due à l’arbitrage. Je fixerai un pourcentage de tolérance égal à 20%
 
@@ -1027,11 +1062,10 @@ NB : L’étude sera soumise à un pourcentage de tolérance qui concerne l’a
 | Stock B          |                     | 2                 |                       |               |
 | Stock C          |                     | 1                 |                       |               |
 
-Tableau  : Arbitrage des zones par capacité
+Tableau 22 : Arbitrage des zones par capacité
 
-## 
 
-##  Innover 
+## Innover
 
 ### Cahier de charge des améliorations
 
@@ -1061,13 +1095,13 @@ Cette amélioration suivra le plan d’action suivant :
 
 ![Figure](projet4-fig08.png)![Figure](projet4-fig09.png)
 
-Figure  : Photos illustratives des SKID proposées
+Figure 34 : Photos illustratives des SKID proposées
 
 ![Figure](projet4-fig10.png) ![Figure](projet4-fig11.png)
 
 ![Figure](projet4-fig12.png)
 
-Figure  : Illustrations du dimensionnement des SKIDS
+Figure 35 : Illustrations du dimensionnement des SKIDS
 
 ##### Objectifs :
 
@@ -1103,19 +1137,19 @@ On a proposé de faire un marquage au sol pour la numérotation des lignes, posi
 
 ![Figure](projet4-fig13.png)
 
-Figure  : Numérotation des lignes
+Figure 36 : Numérotation des lignes
 
 - Numérotation des positions sur chaque ligne, et traçage des numéros des positions par gravure sur les côtés des SKID mis en place.
 
 > ![Figure](projet4-fig14.png)
 
-Figure  : Numérotation des positions
+Figure 37 : Numérotation des positions
 
 - Marquage au sol des trajets des engins
 
 ![Figure](projet4-fig15.png)
 
-Figure  : Trajet des engins
+Figure 38 : Trajet des engins
 
 ##### Objectifs :
 
@@ -1190,7 +1224,7 @@ La somme des totaux des temps cycle nous donne on fin le temps cycle global de c
 | Bobines Réparées RF1 & RF7 poids\>12T                       | \_                    | \_    | 980                 | 1090  | Q        | 500890                  | 25                    | 212                           | 5309                           |                                     |                                   |
 | Bobines NC                                                  | S4                  |       |                     |       |          |                         |                       |                               |                                |                                     |                                   |
 
-Tableau  : ancien plan de zonage muni des calculs
+Tableau 24 : ancien plan de zonage muni des calculs
 
 <table>
 <colgroup>
@@ -2129,7 +2163,7 @@ S: 1 (1==&gt;14)</td>
 </tbody>
 </table>
 
-Tableau  : nouveau plan de zonage muni des calculs
+Tableau 25 : nouveau plan de zonage muni des calculs
 
 L’ancien plan de zonage montre que le temps cycle global du stock dans la période fixée est de **51 jours** en valeur, tandis que le nouveau plan de zonage montre un temps cycle global de **28 jours** en valeur dans la même période et avec les mêmes données utilisées dans le calcul de l’ancien temps cycle global.
 
@@ -2139,7 +2173,7 @@ Ce nouveau plan de zonage est visualisé sur la cartographie suivante :
 
 ![Figure](projet4-fig16.jpeg)
 
-Figure  : Nouvelle cartographie du stock S3
+Figure 42 : Nouvelle cartographie du stock S3
 
 ## Contrôler
 
@@ -2265,7 +2299,7 @@ Ce livret contient huit procédures pour la gestion de stock :
 
 ![Figure](projet4-fig18.jpeg)
 
-Figure  : Logigramme de la procédure alimentation/évacuation machines de réparation
+Figure 44 : Logigramme de la procédure alimentation/évacuation machines de réparation
 
 #### Inventaire bobines
 
@@ -2319,7 +2353,7 @@ Figure  : Logigramme de la procédure alimentation/évacuation machines de répa
 
 ![Figure](projet4-fig19.jpeg)
 
-Figure  : Logigramme de la procédure inventaire bobines
+Figure 45 : Logigramme de la procédure inventaire bobines
 
 #### Transfert bobine Lac
 
@@ -2381,7 +2415,7 @@ Figure  : Logigramme de la procédure inventaire bobines
 
 ![Figure](projet4-fig20.jpeg)
 
-Figure  : Logigramme de la procédure transfert Bobine Lac
+Figure 46 : Logigramme de la procédure transfert Bobine Lac
 
 #### Livraison locale bobine lac
 
@@ -2443,7 +2477,7 @@ Figure  : Logigramme de la procédure transfert Bobine Lac
 
 ![Figure](projet4-fig21.jpeg)
 
-Figure  : Logigramme de la procédure Livraison locale bobine Lac
+Figure 47 : Logigramme de la procédure Livraison locale bobine Lac
 
 #### Export conventionnel
 
@@ -2513,7 +2547,7 @@ Figure  : Logigramme de la procédure Livraison locale bobine Lac
 
 ![Figure](projet4-fig22.jpeg)
 
-Figure  : Logigramme de la procédure export conventionnel
+Figure 48 : Logigramme de la procédure export conventionnel
 
 #### Préparation/expédition export conteneur
 
@@ -2583,7 +2617,7 @@ Figure  : Logigramme de la procédure export conventionnel
 
 ![Figure](projet4-fig23.jpeg)
 
-Figure  : logigramme de la procédure Export conteneur
+Figure 49 : logigramme de la procédure Export conteneur
 
 #### Gestion des retours interne
 
@@ -2643,9 +2677,8 @@ Figure  : logigramme de la procédure Export conteneur
 
 ![Figure](projet4-fig24.jpeg)
 
-Figure : Logigramme de la procédure gestion des retours interne
+Figure 50: Logigramme de la procédure gestion des retours interne
 
-### 
 
 ### Tableau de bord
 
@@ -2696,7 +2729,7 @@ L’étude du cas sur le périmètre du projet m’a conduit à établir un tabl
 </tbody>
 </table>
 
-Figure  : Les indicateurs de performance et leurs formules
+Figure 52 : Les indicateurs de performance et leurs formules
 
 Pour bien assimiler ces indicateurs de performances, je visualiserai le taux de réalisation des bobines à destination du transfert vers le site logistique.
 
@@ -2721,11 +2754,11 @@ Pour bien assimiler ces indicateurs de performances, je visualiserai le taux de 
 | 26-mai | 63           | 98            |
 | 28-mai | 42           | 60            |
 
-Figure  : Extrait de la bd de la table suivi du transfert
+Figure 53 : Extrait de la bd de la table suivi du transfert
 
 ![Figure](projet4-fig25.png)
 
-Figure  : Visualisation du taux de réalisation du mois de mai à destination de transfert
+Figure 54 : Visualisation du taux de réalisation du mois de mai à destination de transfert
 
 ### Gains chiffrés
 
@@ -2739,25 +2772,25 @@ Le gain en termes de performance est de 45%.
 |----------------------------|------------------------|-------------|
 | 23                         | **46**                 | **45%**     |
 
-Figure : Calcule des gains semestriels et annuels
+Figure 55 : Calcule des gains semestriels et annuels
 
 | Location des engins/jour (en MAD) | Consommation du carburant/mois (en MAD) | Salaire de l'opérateur/mois (en MAD) |
 |-----------------------------------|-----------------------------------------|--------------------------------------|
 | 4000                              | **20000**                               | **4000**                             |
 
-Figure  : Les couts logistiques
+Figure 56 : Les couts logistiques
 
 | Location des engins de manutention | Carburant des engins de manutention | Salaire des opérateurs | Total (en MAD) |
 |------------------------------------|-------------------------------------|------------------------|----------------|
 | 184000                             | **30667**                           | **6133**               | **220800**     |
 
-Figure : Calcul du gain total en MAD
+Figure 57 : Calcul du gain total en MAD
 
 ### Confirmation du plan d’action
 
 Le plan d’action ainsi que la validation se trouvent respectivement en annexes 3 et 4.
 
-**Conclusion**
+## Conclusion
 
 La démarche d’amélioration continue permet à une entreprise de rester compétitive. En effet, cette méthodologie permet d’atteindre les objectifs fixés tout en maintenant le niveau de qualité demandé afin d’obtenir une réelle satisfaction de la part du client.
 

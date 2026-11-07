@@ -2,6 +2,26 @@
 
 > **Note :** par souci de confidentialité, les noms de l’entreprise, des clients, du fournisseur et du prestataire de maintenance ont été anonymisés.
 
+## Sommaire
+
+1. [Introduction](#introduction)
+2. [Revue documentaire](#revue-documentaire)
+    - [Démarche de résolution des problèmes : DMAIC](#démarche-de-résolution-des-problèmes--dmaic)
+    - [Les outils d’analyses des problèmes](#les-outils-danalyses-des-problèmes)
+    - [Maintenance Préventive](#maintenance-préventive)
+    - [Maintenance Autonome](#maintenance-autonome)
+    - [Contrôle qualité](#contrôle-qualité)
+3. [La démarche de traitement de la problématique](#la-démarche-de-traitement-de-la-problématique)
+    - [Définir](#définir)
+    - [Mesurer](#mesurer)
+    - [Analyse](#analyse)
+    - [Innover](#innover)
+    - [Contrôler](#contrôler)
+4. [Conclusion](#conclusion)
+
+---
+
+
 ## Introduction
 Le secteur de la métallurgie constitue l’un des piliers historiques et stratégiques de l’industrie française. Il regroupe un large éventail d’activités liées à la production et à la transformation des métaux, notamment dans le domaine de la fabrication des câbles électriques. Dans un environnement industriel en constante évolution, les entreprises du secteur sont amenées à moderniser leurs procédés de fabrication et à optimiser leurs performances afin de répondre aux exigences du marché et aux attentes des clients.
 
