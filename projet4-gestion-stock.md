@@ -70,13 +70,13 @@ Des projets d’optimisation sont devenus nécessaires, dès lors mon projet tou
 >
 > ![QQOQCP du projet](projet4-fig26.png)
 >
-> Figure 21 : QQOQCP du projet
+> Figure  : QQOQCP du projet
 
 **Diagramme de SIPOC**
 
 ![Diagramme SIPOC](projet4-fig27.png)
 
-Figure 20 : Diagramme SIPOC de l’usine
+Figure  : Diagramme SIPOC de l’usine
 
 **Diagramme de Gantt**![Figure](projet4-fig01.png)
 
