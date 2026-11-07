@@ -170,11 +170,11 @@ L’état du sol est détérioré à cause des conditions climatiques ainsi que 
 
 ![Figure](projet4-fig04.jpeg)
 
-Figure 25 : Photo illustrative du marquage du sol 1
+Figure  : Photo illustrative du marquage du sol 1
 
 ![Figure](projet4-fig05.jpeg)
 
-Figure 26 : Photo illustrative du marquage du sol 2
+Figure  : Photo illustrative du marquage du sol 2
 
 **Le désordre dans la mise en place des bobines**
 
@@ -222,7 +222,7 @@ L’agent du zoning suit le plan suivant pour la mise en stock des bobines :
 | Bobines Réparées RF1 & RF7 poids\>12T                         | \_                    | \_    | 1100                | 1290  | P        |
 | Bobines Réparées RF1 & RF7 poids\>12T                         | \_                    | \_    | 980                 | 1090  | Q        |
 
-Tableau 5 : ancien plan de zonage
+Tableau  : ancien plan de zonage
 
 **Cartographie du stock**
 
@@ -327,7 +327,7 @@ Dans le but de savoir la classification des destinations ainsi que les référen
 | LOT-021 | Locale      | 1.60 | 1000.0  | 13730    | M2    | 2021-11-08 00:00:00.000 | 1     |
 | LOT-022 | Locale      | 1.60 | 1000.0  | 12620    | M2    | 2021-11-09 00:00:00.000 | 1     |
 
-Tableau 8 : Extrait de la base de données de rotation des 12 derniers mois
+Tableau  : Extrait de la base de données de rotation des 12 derniers mois
 
 À travers cette base de données, j’ai réalisé un tableau croisé dynamique contenant les destinations et les épaisseurs en ligne et en valeur la somme des poids nets.
 
@@ -367,7 +367,7 @@ Donc j’ai réalisé une classification ABC pour toutes les destinations. Dans 
 | 25  | 4.50                     | 21600                  | 0%                  | 100%                        | C   |                                 |
 | 26  | 1.90                     | 20390                  | 0%                  | 100%                        | C   |                                 |
 
-Tableau 9 : Classification ABC de la destination transfert
+Tableau  : Classification ABC de la destination transfert
 
 |     | Étiquettes de lignes | Somme de Poids net(Kg) | % des poids net | % des poids net cumulés | ABC | % des poids par destination |
 |-----|----------------------|------------------------|-----------------|-------------------------|-----|-----------------------------|
@@ -432,7 +432,7 @@ Tableau 9 : Classification ABC de la destination transfert
 | 84  | 3.31                 | 23630                  | 0%              | 100%                    | C   |                             |
 | 85  | 2.45                 | 20470                  | 0%              | 100%                    | C   |                             |
 
-Tableau 10 : Classification ABC de la destination Consommation
+Tableau  : Classification ABC de la destination Consommation
 
 |     | Étiquettes de lignes | Somme de Poids net (Kg) | % des poids net | % des poids net cumulés | ABC | % des poids par destination |
 |-----|----------------------|-------------------------|-----------------|-------------------------|-----|-----------------------------|
@@ -535,7 +535,7 @@ Tableau 10 : Classification ABC de la destination Consommation
 | 181 | 3.23                 | 6180                    | 0%              | 100%                    | C   |                             |
 | 182 | 4.26                 | 4630                    | 0%              | 100%                    | C   |                             |
 
-Tableau 11 : Classification ABC destination Livraison locale
+Tableau  : Classification ABC destination Livraison locale
 
 |     | Étiquettes de lignes | Somme de Poids net(Kg) | % des poids net | % des poids net cumulés | ABC | % des poids par destination |
 |-----|----------------------|------------------------|-----------------|-------------------------|-----|-----------------------------|
@@ -609,7 +609,7 @@ Tableau 11 : Classification ABC destination Livraison locale
 | 249 | 18.09                | 6950                   | 0%              | 100%                    | C   |                             |
 | 250 | 7.30                 | 6270                   | 0%              | 100%                    | C   |                             |
 
-Tableau 12 : Classification ABC de la destination Export
+Tableau  : Classification ABC de la destination Export
 
 |     | Étiquettes de lignes | Somme de Poids net (Kg) | % des poids net | % des poids net cumulés | ABC | % des poids par destination |
 |-----|----------------------|-------------------------|-----------------|-------------------------|-----|-----------------------------|
@@ -654,7 +654,7 @@ Tableau 12 : Classification ABC de la destination Export
 | 288 | 2.90                 | 6090                    | 1%              | 99%                     | C   |                             |
 | 289 | 3.05                 | 5830                    | 1%              | 100%                    | C   |                             |
 
-Tableau 13 : Classification ABC de la destination stock
+Tableau  : Classification ABC de la destination stock
 
 **Analyser :**
 
@@ -686,7 +686,7 @@ La capacité totale du stock S3 est de 3875 bobines.
 | **B**    | 95%             | 2                      | 5%               | 179                        |
 | **C**    | \>95%           | 19                     | 2%               | 81                         |
 
-Tableau 14 : Interprétation classification Transfert
+Tableau  : Interprétation classification Transfert
 
 La classification ABC de la destination transfert a donné :
 
@@ -696,7 +696,7 @@ Classe B : 2 références pour 13% de pourcentage de poids net, et 5% de pource
 
 Classe C : 19 références pour 5% de pourcentage de poids net, et 2% de pourcentage du poids net total. Le nombre de bobines nécessaire pour le stockage de cette classe est 81.
 
-Figure 29 : Diagramme de Pareto Transfert
+Figure  : Diagramme de Pareto Transfert
 
 ##### Bobines de consommation
 
@@ -706,7 +706,7 @@ Figure 29 : Diagramme de Pareto Transfert
 | **B**    | 95%             | 16                     | 5%               | 184                        |
 | **C**    | \>95%           | 24                     | 2%               | 71                         |
 
-Tableau 15 : Interprétation classification bobines de consommation
+Tableau  : Interprétation classification bobines de consommation
 
 La classification ABC de la destination Bobine de consommation a donné :
 
@@ -716,7 +716,7 @@ Classe B : 16 références pour 13% de pourcentage de poids net, et 5% de pourc
 
 Classe C : 24 références pour 5% de pourcentage de poids net, et 2% de pourcentage du poids net total. Le nombre de bobines nécessaire pour le stockage de cette classe est 71.
 
-Figure 30 : Diagramme de Pareto bobines de consommation
+Figure  : Diagramme de Pareto bobines de consommation
 
 ##### Livraison locale 
 
@@ -726,7 +726,7 @@ Figure 30 : Diagramme de Pareto bobines de consommation
 | **B**    | 95%            | 13              | 2%             | 94                          |
 | **C**    | \>95%          | 66              | 1%             | 35                          |
 
-Tableau 16 : Interprétation classification livraison locale
+Tableau  : Interprétation classification livraison locale
 
 La classification ABC de la destination Bobine de consommation a donné :
 
@@ -736,7 +736,7 @@ Classe B : 13 références pour 13% de pourcentage de poids net, et 2% de pourc
 
 Classe C : 66 références pour 5% de pourcentage de poids net, et 1% de pourcentage du poids net total. Le nombre de bobines nécessaire pour le stockage de cette classe est 35.
 
-Figure 31 : Diagramme de Pareto Livraison locale
+Figure  : Diagramme de Pareto Livraison locale
 
 ##### Export
 
@@ -746,7 +746,7 @@ Figure 31 : Diagramme de Pareto Livraison locale
 | **B**    | 95%             | 14              | 1%             | 54                          |
 | **C**    | \>95%           | 32              | 1%             | 20                          |
 
-Tableau 17 : Interprétation classification export
+Tableau  : Interprétation classification export
 
 La classification ABC de la destination Bobine de consommation a donné :
 
@@ -756,7 +756,7 @@ Classe B : 14 références pour 13% de pourcentage de poids net, et 1% de pourc
 
 Classe C : 32 références pour 5% de pourcentage de poids net, et 1% de pourcentage du poids net total. Le nombre de bobines nécessaire pour le stockage de cette classe est 20.
 
-Figure 32 : Diagramme de Pareto Export
+Figure : Diagramme de Pareto Export
 
 ##### Stockage
 
@@ -766,7 +766,7 @@ Figure 32 : Diagramme de Pareto Export
 | **B**    | 95%             | 10              | 0%                   | 2                           |
 | **C**    | \>95%           | 8               | 0%                   | 1                           |
 
-Tableau 18 : Interprétation classification Stock
+Tableau  : Interprétation classification Stock
 
 La classification ABC de la destination Bobine de consommation a donné :
 
@@ -776,7 +776,7 @@ Classe B : 10 références pour 13% de pourcentage de poids net, et 0% de pourc
 
 Classe C : 8 références pour 5% de pourcentage de poids net, et 0% de pourcentage du poids net total. Le nombre de bobines nécessaire pour le stockage de cette classe est 1.
 
-Figure 33 : Diagramme de Pareto Stock
+Figure  : Diagramme de Pareto Stock
 
 #### Résumé de l’analyse de Pareto
 
@@ -812,7 +812,7 @@ Les résultats de la classification sont comme suit :
 |                                       | Stock B                              | 0%                         | 2                          |                           |
 |                                       | Stock C                              | 0%                         | 1                          |                           |
 
-Tableau 19 : Résumé de l'analyse de Pareto
+Tableau  : Résumé de l'analyse de Pareto
 
 Cependant, l’existence de plusieurs épaisseurs dans chaque Classe m’a mis sous l’obligation de détailler plus le classement des Références, d’où l’utilisation de la classification ABC FMR.
 
@@ -901,7 +901,7 @@ Les références -composées de la destination et la classe- qui ont le taux de 
 | **14** | Stock B                              |                | 0%                         | 2                           |
 | **15** | Stock C                              |                | 0%                         | 1                           |
 
-Tableau 20 : Résumé de l'analyse de Pareto détaillé
+Tableau  : Résumé de l'analyse de Pareto détaillé
 
 #### Affectation des références sur les zones par arbitrage de capacité
 
@@ -945,7 +945,7 @@ Les capacités de chaque zone au sein du stock S3 sont illustrées sur le tablea
 | T        | 1     | 2     | 1 ------\> 70  | 70                         | 10              | 700     |
 | U        | 1     | 2     | 1 ------\> 55  | 55                         |                 |         |
 
-Tableau 21 : Capacité du stock S3
+Tableau  : Capacité du stock S3
 
 NB : L’étude sera soumise à un pourcentage de tolérance qui concerne l’affectation des zones aux références qui est due à l’arbitrage. Je fixerai un pourcentage de tolérance égal à 20%
 
@@ -1027,7 +1027,7 @@ NB : L’étude sera soumise à un pourcentage de tolérance qui concerne l’a
 | Stock B          |                     | 2                 |                       |               |
 | Stock C          |                     | 1                 |                       |               |
 
-Tableau 22 : Arbitrage des zones par capacité
+Tableau  : Arbitrage des zones par capacité
 
 ## 
 
@@ -1061,13 +1061,13 @@ Cette amélioration suivra le plan d’action suivant :
 
 ![Figure](projet4-fig08.png)![Figure](projet4-fig09.png)
 
-Figure 34 : Photos illustratives des SKID proposées
+Figure  : Photos illustratives des SKID proposées
 
 ![Figure](projet4-fig10.png) ![Figure](projet4-fig11.png)
 
 ![Figure](projet4-fig12.png)
 
-Figure 35 : Illustrations du dimensionnement des SKIDS
+Figure  : Illustrations du dimensionnement des SKIDS
 
 ##### Objectifs :
 
@@ -1103,19 +1103,19 @@ On a proposé de faire un marquage au sol pour la numérotation des lignes, posi
 
 ![Figure](projet4-fig13.png)
 
-Figure 36 : Numérotation des lignes
+Figure  : Numérotation des lignes
 
 - Numérotation des positions sur chaque ligne, et traçage des numéros des positions par gravure sur les côtés des SKID mis en place.
 
 > ![Figure](projet4-fig14.png)
 
-Figure 37 : Numérotation des positions
+Figure  : Numérotation des positions
 
 - Marquage au sol des trajets des engins
 
 ![Figure](projet4-fig15.png)
 
-Figure 38 : Trajet des engins
+Figure  : Trajet des engins
 
 ##### Objectifs :
 
@@ -1190,7 +1190,7 @@ La somme des totaux des temps cycle nous donne on fin le temps cycle global de c
 | Bobines Réparées RF1 & RF7 poids\>12T                       | \_                    | \_    | 980                 | 1090  | Q        | 500890                  | 25                    | 212                           | 5309                           |                                     |                                   |
 | Bobines NC                                                  | S4                  |       |                     |       |          |                         |                       |                               |                                |                                     |                                   |
 
-Tableau 24 : ancien plan de zonage muni des calculs
+Tableau  : ancien plan de zonage muni des calculs
 
 <table>
 <colgroup>
@@ -2129,7 +2129,7 @@ S: 1 (1==&gt;14)</td>
 </tbody>
 </table>
 
-Tableau 25 : nouveau plan de zonage muni des calculs
+Tableau  : nouveau plan de zonage muni des calculs
 
 L’ancien plan de zonage montre que le temps cycle global du stock dans la période fixée est de **51 jours** en valeur, tandis que le nouveau plan de zonage montre un temps cycle global de **28 jours** en valeur dans la même période et avec les mêmes données utilisées dans le calcul de l’ancien temps cycle global.
 
@@ -2139,7 +2139,7 @@ Ce nouveau plan de zonage est visualisé sur la cartographie suivante :
 
 ![Figure](projet4-fig16.jpeg)
 
-Figure 42 : Nouvelle cartographie du stock S3
+Figure  : Nouvelle cartographie du stock S3
 
 ## Contrôler
 
@@ -2265,7 +2265,7 @@ Ce livret contient huit procédures pour la gestion de stock :
 
 ![Figure](projet4-fig18.jpeg)
 
-Figure 44 : Logigramme de la procédure alimentation/évacuation machines de réparation
+Figure  : Logigramme de la procédure alimentation/évacuation machines de réparation
 
 #### Inventaire bobines
 
@@ -2319,7 +2319,7 @@ Figure 44 : Logigramme de la procédure alimentation/évacuation machines de ré
 
 ![Figure](projet4-fig19.jpeg)
 
-Figure 45 : Logigramme de la procédure inventaire bobines
+Figure  : Logigramme de la procédure inventaire bobines
 
 #### Transfert bobine Lac
 
@@ -2381,7 +2381,7 @@ Figure 45 : Logigramme de la procédure inventaire bobines
 
 ![Figure](projet4-fig20.jpeg)
 
-Figure 46 : Logigramme de la procédure transfert Bobine Lac
+Figure  : Logigramme de la procédure transfert Bobine Lac
 
 #### Livraison locale bobine lac
 
@@ -2443,7 +2443,7 @@ Figure 46 : Logigramme de la procédure transfert Bobine Lac
 
 ![Figure](projet4-fig21.jpeg)
 
-Figure 47 : Logigramme de la procédure Livraison locale bobine Lac
+Figure  : Logigramme de la procédure Livraison locale bobine Lac
 
 #### Export conventionnel
 
@@ -2513,7 +2513,7 @@ Figure 47 : Logigramme de la procédure Livraison locale bobine Lac
 
 ![Figure](projet4-fig22.jpeg)
 
-Figure 48 : Logigramme de la procédure export conventionnel
+Figure  : Logigramme de la procédure export conventionnel
 
 #### Préparation/expédition export conteneur
 
@@ -2583,7 +2583,7 @@ Figure 48 : Logigramme de la procédure export conventionnel
 
 ![Figure](projet4-fig23.jpeg)
 
-Figure 49 : logigramme de la procédure Export conteneur
+Figure  : logigramme de la procédure Export conteneur
 
 #### Gestion des retours interne
 
@@ -2643,7 +2643,7 @@ Figure 49 : logigramme de la procédure Export conteneur
 
 ![Figure](projet4-fig24.jpeg)
 
-Figure 50: Logigramme de la procédure gestion des retours interne
+Figure : Logigramme de la procédure gestion des retours interne
 
 ### 
 
@@ -2696,7 +2696,7 @@ L’étude du cas sur le périmètre du projet m’a conduit à établir un tabl
 </tbody>
 </table>
 
-Figure 52 : Les indicateurs de performance et leurs formules
+Figure  : Les indicateurs de performance et leurs formules
 
 Pour bien assimiler ces indicateurs de performances, je visualiserai le taux de réalisation des bobines à destination du transfert vers le site logistique.
 
@@ -2721,11 +2721,11 @@ Pour bien assimiler ces indicateurs de performances, je visualiserai le taux de 
 | 26-mai | 63           | 98            |
 | 28-mai | 42           | 60            |
 
-Figure 53 : Extrait de la bd de la table suivi du transfert
+Figure  : Extrait de la bd de la table suivi du transfert
 
 ![Figure](projet4-fig25.png)
 
-Figure 54 : Visualisation du taux de réalisation du mois de mai à destination de transfert
+Figure  : Visualisation du taux de réalisation du mois de mai à destination de transfert
 
 ### Gains chiffrés
 
@@ -2739,19 +2739,19 @@ Le gain en termes de performance est de 45%.
 |----------------------------|------------------------|-------------|
 | 23                         | **46**                 | **45%**     |
 
-Figure 55 : Calcule des gains semestriels et annuels
+Figure : Calcule des gains semestriels et annuels
 
 | Location des engins/jour (en MAD) | Consommation du carburant/mois (en MAD) | Salaire de l'opérateur/mois (en MAD) |
 |-----------------------------------|-----------------------------------------|--------------------------------------|
 | 4000                              | **20000**                               | **4000**                             |
 
-Figure 56 : Les couts logistiques
+Figure  : Les couts logistiques
 
 | Location des engins de manutention | Carburant des engins de manutention | Salaire des opérateurs | Total (en MAD) |
 |------------------------------------|-------------------------------------|------------------------|----------------|
 | 184000                             | **30667**                           | **6133**               | **220800**     |
 
-Figure 57 : Calcul du gain total en MAD
+Figure : Calcul du gain total en MAD
 
 ### Confirmation du plan d’action
 
