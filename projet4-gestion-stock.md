@@ -26,7 +26,7 @@
     - [Plan de zonage](#plan-de-zonage)
 6. [Contrôler](#contrôler)
     - [Livret des procédures](#livret-des-procédures)
-    - [Tableau de bord](#tableau-de-bord)
+    - [Indicateurs de suivi](#indicateurs-de-suivi)
     - [Gains chiffrés](#gains-chiffrés)
     - [Confirmation du plan d’action](#confirmation-du-plan-daction)
 7. [Conclusion](#conclusion)
