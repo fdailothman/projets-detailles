@@ -2680,9 +2680,7 @@ Figure 49 : logigramme de la procédure Export conteneur
 Figure 50: Logigramme de la procédure gestion des retours interne
 
 
-### Tableau de bord
-
-Le tableau de bord est un élément très important pour le suivie de la performance et l’intervention en cas des fluctuations des indicateurs de performances au niveau d’un poste de travail.
+### Indicateurs de suivi
 
 Chaque département ou poste de travail demande une étude de cas pour savoir les indicateurs de performances adéquats pour la mesure de la performance de cette entité.
 
@@ -2758,7 +2756,7 @@ Figure 53 : Extrait de la bd de la table suivi du transfert
 
 ![Figure](projet4-fig25.png)
 
-Figure 54 : Visualisation du taux de réalisation du mois de mai à destination de transfert
+Figure 54 : Visualisation du taux de réalisation du mois de mai à destination de transfert(extrait du tableau de bord)
 
 ### Gains chiffrés
 
